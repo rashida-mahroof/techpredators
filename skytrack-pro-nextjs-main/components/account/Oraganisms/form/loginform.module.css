@@ -1,0 +1,19 @@
+
+
+    .label{
+        font-weight: 400;
+        font-size: 14.22px;
+        line-height: 19px;
+    }  
+
+ .reset{
+    color: var(--primary-color);
+}
+.policy{
+    font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+}
+.policy1{
+    color: var(--primary-color);
+}

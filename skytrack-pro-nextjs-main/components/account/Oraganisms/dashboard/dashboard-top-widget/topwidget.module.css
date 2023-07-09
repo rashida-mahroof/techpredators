@@ -1,0 +1,42 @@
+.box{
+    background-color: var(--light-color);
+    padding: 20px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+.icon_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color:var(--background-color);
+    border-radius: 38px;
+    margin-right: 20px;
+}
+
+
+
+
+.count{
+    font-weight: 700;
+    font-size: 22.78px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.title{
+    font-weight: 400;
+font-size: 14.22px;
+line-height: 19px;
+margin-bottom: 0;
+}
+
+@media screen and (max-width:678px) {
+    .box{
+        margin-bottom: 10px;
+    }
+}

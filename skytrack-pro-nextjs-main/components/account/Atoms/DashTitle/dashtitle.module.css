@@ -1,0 +1,14 @@
+.subhed{
+    font-weight: 700;
+    font-size: 24.63px;
+    line-height: 33px;
+    margin:  32px 10px;
+   text-align: start;
+    
+}
+@media screen and (max-width:768px){
+    .subhed{
+       font-size: 20px;
+       margin: 20px 0;
+    }   
+   }

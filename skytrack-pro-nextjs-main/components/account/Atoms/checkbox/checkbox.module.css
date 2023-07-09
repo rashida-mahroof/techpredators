@@ -1,0 +1,9 @@
+
+.check_box{
+    margin-right: 10px;
+    accent-color: var(--primary-color);
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+
+}
