@@ -115,6 +115,6 @@
         height: 100vh;
 
     }
-    #particles-js .overlay{padding: 1rem;}
+    #particles-js .overlay{padding: 1rem;text-align: justify;}
     #particles-js .overlay h1 {font-size: 30px;}
    }
