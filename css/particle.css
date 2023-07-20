@@ -110,3 +110,11 @@
     font-size: 42px ;
     font-weight: 800;
    }
+   @media (max-width:768px){
+    #particles-js{
+        height: 100vh;
+
+    }
+    #particles-js .overlay{padding: 1rem;}
+    #particles-js .overlay h1 {font-size: 30px;}
+   }
