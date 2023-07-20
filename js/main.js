@@ -1,3 +1,4 @@
+
 //js for preloader
 $(window).on("load", function() {
     $("#loader").fadeOut("slow");
