@@ -1,8 +1,0 @@
-.row{
-    background-color: var(--light-color);
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-.row td{
-    padding: 10px;
-}

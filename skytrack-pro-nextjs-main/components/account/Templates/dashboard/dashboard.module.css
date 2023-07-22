@@ -1,9 +1,0 @@
-.d_sb{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-.list{
-    display: inline-grid;
-    list-style-type: none;
-}
