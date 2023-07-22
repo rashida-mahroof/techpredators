@@ -1,21 +1,4 @@
-$(document).ready(function() {
-  // Function to slow down the scroll speed
-  function slowScrollToBottom() {
-    // Get the height of the content container
-    var contentHeight = $("body")[0].scrollHeight;
-    
-    // Calculate the duration based on the height of the content (adjust the value as per your requirement)
-    var duration = contentHeight * 2; // 2 milliseconds per pixel, you can adjust this factor
-    
-    // Animate the scrolling of the whole body
-    $("html, body").animate({ scrollTop: contentHeight }, duration);
-  }
-  
-  // Attach click event to the button to initiate the slow scroll
-  $("#scrollButton").on("click", function() {
-    slowScrollToBottom();
-  });
-});
+
 //js for preloader
 $(window).on("load", function() {
     $("#loader").fadeOut("slow");
